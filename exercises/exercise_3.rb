@@ -9,3 +9,6 @@ puts "----------"
 
 @store3 = Store.find_by(id:3)
 p @store3
+
+@store3.destroy
+puts "Stores count after deleting store 3 is: #{Store.count}"
