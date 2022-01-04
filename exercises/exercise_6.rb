@@ -9,3 +9,7 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
+
+@all_stores = Store
+puts "hello"
+p @all_stores
