@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@store1=Store.find_by(id: 1)
+p @store1
